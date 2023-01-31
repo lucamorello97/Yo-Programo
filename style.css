@@ -1,0 +1,40 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.contenedor_perfil {
+    display: flex;
+}
+.foto_perfil  {
+    border-radius: 50%;
+}
+.informacion_perfil{
+    max-width: 550px;
+}
+
+.informacion_formacion{
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    
+}
+
+.informacion_extra{
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    
+}
